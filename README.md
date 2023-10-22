@@ -43,7 +43,42 @@ $$
   V_2
  \end{bmatrix}$$  
  ***  
+ P3.5  
+ (a)  
+ $$T(S) = \frac{S+2}{S^3+5S^2-23S+2}$$  
+ (b)  
+ $$(S^3+5S^2-23S+2)Y(S)=R(S)$$  
  
+$$
+ \begin{bmatrix}
+  \dot{x_1} \\
+  \dot{x_2} \\
+  \dot{x_3}
+ \end{bmatrix}=
+ \begin{bmatrix}
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+  -2 & 23 & -5
+ \end{bmatrix}
+  \begin{bmatrix}
+  x_1 \\
+  x_2 \\
+  x_3
+ \end{bmatrix}+
+  \begin{bmatrix}
+  0 \\
+  0 \\
+  1
+ \end{bmatrix}r
+ $$  
  
- 
-
+ $$y=
+ \begin{bmatrix}
+2 & 1 
+\end{bmatrix}
+ \begin{bmatrix}
+x_1 \\  
+x_2
+\end{bmatrix}$$  
+***  
+P3.12  
