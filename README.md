@@ -13,5 +13,12 @@ $$\frac{dx_1(t)}{dt}=x_2(t)$$
 $$\frac{dx_2(t)}{dt}=-\frac{b}{M}x_2(t)-\frac{k}{M}x_1(t)+\frac{1}{M}F(t)$$
 $$y(t)=x_1(t)$$  
 ***  
-
+P3.3  
+$$L\frac{d i_L}{dt}-V_C+V_2-V_1=0$$  
+$$C\frac{dV_C}{dt}=-i_L+i_R$$  
+$$i_R R-V_2+V_C=0$$  
+$$i_R=-\frac{V_C}{R}+\frac{V_2}{R}$$  
+$$\frac{dV_C}{dt}=-\frac{V_C}{RC}-\frac{i_L}{C}+\frac{V_2}{RC}$$  
+$$\frac{di_L}{dt}=\frac{V_C}{dt}+\frac{V_1}{L}-\frac{V_2}{L}$$
+$$
 
