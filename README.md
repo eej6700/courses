@@ -82,3 +82,24 @@ x_2
 \end{bmatrix}$$  
 ***  
 P3.12  
+(a)  
+
+$$\dot{x}=
+ \begin{bmatrix}
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+  -48 & -44 & -12
+ \end{bmatrix}x+
+  \begin{bmatrix}
+  0 \\
+  0 \\
+  1
+ \end{bmatrix}r
+ $$  
+ 
+ $$y=
+  \begin{bmatrix}
+  40 & 8 & 0
+ \end{bmatrix}x
+ $$  
+(b)  
