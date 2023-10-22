@@ -19,6 +19,31 @@ $$C\frac{dV_C}{dt}=-i_L+i_R$$
 $$i_R R-V_2+V_C=0$$  
 $$i_R=-\frac{V_C}{R}+\frac{V_2}{R}$$  
 $$\frac{dV_C}{dt}=-\frac{V_C}{RC}-\frac{i_L}{C}+\frac{V_2}{RC}$$  
-$$\frac{di_L}{dt}=\frac{V_C}{dt}+\frac{V_1}{L}-\frac{V_2}{L}$$
+$$\frac{di_L}{dt}=\frac{V_C}{dt}+\frac{V_1}{L}-\frac{V_2}{L}$$  
+
 $$
+ \begin{pmatrix}
+  \dot{x_1} \\
+  \dot{x_2}
+ \end{pmatrix}=
+ \begin{bmatrix}
+  0 & 1/L \\
+  -1/C & -1/RC
+ \end{bmatrix}
+  \begin{pmatrix}
+  x_1 \\
+  x_2
+ \end{pmatrix}+
+  \begin{bmatrix}
+  1/L & -1/L \\
+  0 & 1/RC
+ \end{bmatrix}
+  \begin{bmatrix}
+  V_1 \\
+  V_2
+ \end{bmatrix}$$  
+ ***  
+ 
+ 
+ 
 
