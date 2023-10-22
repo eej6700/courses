@@ -14,7 +14,7 @@ $$\frac{dx_2(t)}{dt}=-\frac{b}{M}x_2(t)-\frac{k}{M}x_1(t)+\frac{1}{M}F(t)$$
 $$y(t)=x_1(t)$$  
 ***  
 P3.3  
-$$L\frac{d i_L}{dt}-V_C+V_2-V_1=0$$  
+$$L\frac{d{i_L}}{dt}-V_C+V_2-V_1=0$$  
 $$C\frac{dV_C}{dt}=-i_L+i_R$$  
 $$i_R R-V_2+V_C=0$$  
 $$i_R=-\frac{V_C}{R}+\frac{V_2}{R}$$  
@@ -131,3 +131,6 @@ $$\Phi_3(t) =
   -\frac{3}{4}e^{-6t}+e^{-4t}-\frac{1}{4}e^{-2t} \\
   \frac{9}{2}e^{-6t}-4e^{-4t}+\frac{1}{2}e^{-2t}
  \end{pmatrix}$$  
+***  
+p3.17  
+$$G(S)=C(sI-A)^{-1}B=\frac{-4S+12}{S^3-14S^2+37S+20}$$  
