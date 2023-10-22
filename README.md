@@ -104,3 +104,9 @@ $$\dot{x}=
  $$  
  
 (b)  
+
+ $$\Phi(t)=
+  \begin{bmatrix}
+  \Phi_1(t) : & \Phi_2(t) : & \Phi_3(t)
+ \end{bmatrix}
+ $$  
