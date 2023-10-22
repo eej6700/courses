@@ -102,4 +102,5 @@ $$\dot{x}=
   40 & 8 & 0
  \end{bmatrix}x
  $$  
+ 
 (b)  
