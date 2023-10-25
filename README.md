@@ -19,7 +19,7 @@ $$C\frac{dV_C}{dt}=-i_L+i_R$$
 $$i_R R-V_2+V_C=0$$  
 $$i_R=-\frac{V_C}{R}+\frac{V_2}{R}$$  
 $$\frac{dV_C}{dt}=-\frac{V_C}{RC}-\frac{i_L}{C}+\frac{V_2}{RC}$$  
-$$\frac{di_L}{dt}=\frac{V_C}{dt}+\frac{V_1}{L}-\frac{V_2}{L}$$  
+$$\frac{di_L}{dt}=\frac{V_C}{L}+\frac{V_1}{L}-\frac{V_2}{L}$$  
 
 $$
  \begin{pmatrix}
@@ -74,11 +74,12 @@ $$
  
  $$y=
  \begin{bmatrix}
-2 & 1 
+2 & 1 & 0  
 \end{bmatrix}
  \begin{bmatrix}
 x_1 \\  
-x_2
+x_2 \\
+x_3
 \end{bmatrix}$$  
 ***  
 P3.12  
